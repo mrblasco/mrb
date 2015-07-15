@@ -1,0 +1,1 @@
+pandoc content/paper.md -o papers.html

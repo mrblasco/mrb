@@ -1,0 +1,94 @@
+/* 
+This file is created for Andrea's webpage
+*/
+
+/* This defines the font saved in settings folder 
+@font-face { font-family: Sweetie; src: url('fonts/Sweetie_Pie.ttf'); } 
+@font-face { font-family: Gentile; src: url('fonts/GenAR102.TTF'); } 
+*/
+
+/* reset */
+a {text-decoration:none;}
+body {font-family: Times;}
+#container {
+    align: center;
+	box-shadow: 10px 10px 5px #888888;
+	width:70%;
+	margin-right: auto;
+	margin-left: auto;
+	border:2px solid;
+	}
+.mrb {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Navigation */
+#nav {
+	/*background-color:black;
+	color:white;*/
+	width: 100%;
+	list-style: none;
+	float:left;
+	font-size:18px;
+}
+#nav li {
+	float: left;
+	display:inline;
+	border-right: 1px solid #aaa;
+	border-bottom: 4px solid white;
+	padding: 0 20px;	
+}
+#nav li:hover {
+	background-color:lightred;
+	border-bottom: 4px solid red;
+}
+#nav li:last-child {
+  border-right: none;
+}
+#nav a {
+	text-transform:capitalize;
+}
+#info {
+	width:90%;
+	margin:10px;
+}
+
+/*  */
+.position {
+	font-weight:bold;
+}
+
+/* Papers */
+/*.clear{margin-top:100px}*/
+.topic {margin:20px;margin-top:50px;} 
+.topic-title{
+		width:30%;
+		font-weight: bold;
+		text-transform:capitalize;
+		border-bottom:1px solid;
+		}
+.paper{margin: 20px;
+		font-size:18px}
+.coauthors {margin-top:20px;}
+.year:before {content: "(" }
+.year:after {content: ")" }
+.title {
+		font-weight: bold;
+		text-transform:capitalize;
+		color:#3B5998;
+		text-decoration:none;}
+.paper-links{
+}
+
+/* Abstract */
+.abstract a{color:#FF7F50; 
+			text-decoration:none;
+			cursor:pointer;}
+.abstract a:before{content: '[';}
+.abstract a:after{content: ']';}
+.text {margin:10px;
+		font-size:16px;
+		text-align:justify;
+	}
+.text:before {content: "Abstract: "; font-weight:bold; }
